@@ -1,0 +1,30 @@
+{
+    "title": "",
+    "salt": 10,
+    "dbConnection": {
+        "host": "localhost",
+        "port": 8889,
+        "database": "demo_db",
+        "user": "root",
+        "password": "root"
+    },
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379,
+        "password": ""
+    },
+    "redisContentPrefix": "DeMo-",
+    "microservice": {
+        "userservice": {
+            "host": "localhost",
+            "port": 8081
+        },
+        "logservice": {
+            "host": "localhost",
+            "port": 8082
+        }
+    },
+    "homepage": {
+        "url": "/"
+    }
+}
